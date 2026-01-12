@@ -1,4 +1,6 @@
-**The Hidden Text Detector**
+#The Hidden Text Detector
+
+https://zenodo.org/badge/1132460025.svg
  
 Hidden Text Detector (HTD) is a Windows application designed to identify and reveal concealed text in PDF, Word, and Excel documents. This tool is essential for document analysis, compliance verification, and security auditing.
 The application detects hidden content using advanced heuristics, including microfonts (under 4pt), white or near-white text, and documents with hidden text attributes. This helps users uncover potentially concealed information that may not be immediately visible.
