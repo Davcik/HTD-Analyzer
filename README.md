@@ -32,6 +32,7 @@ Software:
 •	Advanced Installer extension for Visual Studio 2026 by Caphyon 
 •	GitHub account (optional)
 
+
 Disclaimer: The code presented here is intended for an Install app. However, Windows security will probably block its execution. I have created the application file with install option using the Advanced Installer extension for Visual Studio 2026 by Caphyon.
 
 The downloadable ZIP file is available at https://zenodo.org/records/18217095 (DOI: 10.5281/zenodo.18217095). Unzip the folder and activate “HTD Analyzer.exe”.
