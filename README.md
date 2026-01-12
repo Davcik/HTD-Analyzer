@@ -9,6 +9,7 @@ Use Cases: Document forensics, compliance auditing, intellectual property protec
 This tool is intended for legitimate purposes such as security research, document verification, and compliance checking. Users are responsible for ensuring they have the proper authorisation to analyse documents.
 
 Key Features:
+
 • Python-based backend analyser (PyMuPDF, python-docx, openpyxl)
 • C# WPF frontend with Pigeon Blue theme
 • Advanced filtering and search capabilities
@@ -17,12 +18,14 @@ Key Features:
 • Statistics Panel showing hidden text breakdown
 
 Technology Stack:
+
 •	Frontend: C# WPF (.NET Framework 4.7.2 or .NET 6.0+)
 •	Backend: Python 3.8+
 •	Libraries: PyMuPDF, python-docx, openpyxl, PyInstaller
 •	UI Theme: Pigeon Blue (#4A90E2) with Light Grey (#E8E8E8)
 
-Software: 
+Software:
+
 •	Python 3.8+ 
 •	Command Prompt (Administrator) 
 •	Visual Studio 2026
