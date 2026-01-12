@@ -1,0 +1,1 @@
+Place sample files (PDF/DOCX/XLSX) here. The benchmark will use the first file found in this folder as the sample to analyze. You can copy files from D:\___QuQu\HTD_analyzer\HTD_analyzer.spec into this folder to run benchmarks against your HTD files.

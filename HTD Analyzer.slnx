@@ -1,0 +1,18 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="All" />
+    <BuildType Name="Debug" />
+    <BuildType Name="Release" />
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="HTD Analyzer/HTD Analyzer.csproj" Id="7d0bf356-c0a6-495f-8de7-84072f4a13eb">
+    <BuildType Solution="All|*" Project="Debug" />
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+  <Project Path="HTD Install/HTD Install.aiproj" Type="840c416c-b8f3-42bc-b0dd-f6bb14c9f8cb" Id="957edb60-eea0-45c4-a1d0-87ba661725a3">
+    <BuildType Project="All" />
+    <Platform Project="?" />
+  </Project>
+</Solution>

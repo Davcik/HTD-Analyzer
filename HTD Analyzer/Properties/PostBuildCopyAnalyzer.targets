@@ -1,0 +1,12 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="CopyAnalyzerExe" AfterTargets="Build">
+    <!-- If a pre-built document_analyzer.exe exists in tools\dist, copy it into the app output -->
+    <PropertyGroup>
+      <AnalyzerSource>$(SolutionDir)tools\dist\document_analyzer.exe</AnalyzerSource>
+    </PropertyGroup>
+    <ItemGroup>
+      <AnalyzerExists Include="$(AnalyzerSource)" Condition="Exists('$(AnalyzerSource)')" />
+    </ItemGroup>
+    <Copy SourceFiles="@(AnalyzerExists)" DestinationFolder="$(TargetDir)" Condition="@(AnalyzerExists) != ''" />
+  </Target>
+</Project>

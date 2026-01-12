@@ -1,0 +1,52 @@
+﻿<Window x:Class="HiddenTextDetector.ImpressumWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Impressum"
+        Height="350"
+        Width="500"
+        WindowStartupLocation="CenterOwner"
+        Background="#FFFFFF"
+        ResizeMode="NoResize">
+
+    <Grid Background="#FFFFFF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <ScrollViewer Grid.Row="0" Margin="20">
+            <StackPanel>
+                <TextBlock FontSize="16" FontWeight="Bold" Foreground="#4A90E2" Margin="0,0,0,15">
+                    About Hidden Text Detector
+                </TextBlock>
+
+                <TextBlock FontSize="12" Foreground="#333333" TextWrapping="Wrap" Margin="0,0,0,15" LineHeight="18">
+                    <Run FontWeight="Bold">Hidden Text Detector</Run> is a professional Windows application designed to identify and reveal concealed text within PDF, Word, and Excel documents. This tool is essential for document analysis, compliance verification, and security auditing.
+                </TextBlock>
+
+                <TextBlock FontSize="12" Foreground="#333333" TextWrapping="Wrap" Margin="0,0,0,15" LineHeight="18">
+                    The application detects hidden content using advanced heuristics including microfonts (less than 4pt), white or near-white text, and documents with hidden text attributes. This helps users uncover potentially concealed information that may not be immediately visible.
+                </TextBlock>
+
+                <TextBlock FontSize="12" Foreground="#333333" TextWrapping="Wrap" Margin="0,0,0,15" LineHeight="18">
+                    <Run FontWeight="Bold">Use Cases:</Run> Document forensics, compliance auditing, intellectual property protection, and transparency verification.
+                </TextBlock>
+
+                <TextBlock FontSize="11" Foreground="#666666" TextWrapping="Wrap" Margin="0,0,0,20" LineHeight="16">
+                    <Run FontStyle="Italic">Note: This tool is intended for legitimate purposes such as security research, document verification, and compliance checking. Users are responsible for ensuring they have proper authorization to analyze documents.</Run>
+                </TextBlock>
+
+                <Border BorderBrush="#D3D3D3" BorderThickness="1" Padding="10" Margin="0,0,0,10" Background="#E8E8E8">
+                    <TextBlock FontSize="10" Foreground="#333333" TextWrapping="Wrap">
+                        <Run FontWeight="Bold">Copyright © 2025 Nebojsa Davcik</Run><LineBreak/>
+                        All rights reserved.<LineBreak/>
+                        <LineBreak/>
+                        <Run FontStyle="Italic">Version 1.0 | Built with .NET Framework and WPF</Run>
+                    </TextBlock>
+                </Border>
+            </StackPanel>
+        </ScrollViewer>
+
+        <Button Grid.Row="1" Content="Close" Click="Close_Click" Background="#4A90E2" Foreground="White" Padding="15,8" Margin="20" HorizontalAlignment="Right" Width="100" FontWeight="Medium"/>
+    </Grid>
+</Window>

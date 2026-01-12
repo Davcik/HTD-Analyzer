@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <!-- Enable nullable reference types project-wide -->
+    <Nullable>enable</Nullable>
+    <!-- Ensure C# 8.0 features are enabled for the projects targeting .NET Framework 4.7.2 -->
+    <LangVersion>8.0</LangVersion>
+    <!-- Define benchmark symbol so benchmark code is compiled -->
+    <DefineConstants>$(DefineConstants);BENCHMARK</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Add System.Text.Json for JSON handling on .NET Framework and BenchmarkDotNet for benchmarks -->
+    <PackageReference Include="System.Text.Json" Version="6.0.0" />
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.8" />
+  </ItemGroup>
+</Project>
